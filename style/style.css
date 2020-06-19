@@ -1,0 +1,110 @@
+:root {
+    --cor1: #e9dccd;
+    --cor2: #e3bab3;
+    --cor3: #613a43;
+    --cor4: #849974;
+    --cor5: #36384c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+header{
+    background-color: var(--cor2);
+    position: fixed;
+    width: 100%;
+}
+
+.nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+        
+}
+
+#logo{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header a{
+    font-size: 25px;
+    padding: 5px;
+    text-decoration: none;
+    color: var(--cor3);
+    flex-wrap: nowrap;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: var(--cor5);
+}
+
+header nav span{
+    font-size: 30px;
+    color: var(--cor3);
+}
+
+#home{
+    height: 300px;
+    width: 100%;
+}
+
+#sobre-mim{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#sobre-mim .conteudo-sobre-mim{
+    margin: 0 15px;
+}
+
+#sobre-mim #titulo-sobre-mim{
+    font-size: 30px;
+    color: var(--cor5);
+}
+
+#sobre-mim #box-sobre-mim{
+    margin: 20px 50px 30px 0;
+    padding: 20px;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: var(--cor3);
+    border-style: solid;
+    background-color: var(--cor2);
+}
+
+#sobre-mim #box-sobre-mim p{
+    font-size: 20px;
+    color: var(--cor5);
+}
+
+.whats{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+#atendimento{
+    height: 400px;
+}
