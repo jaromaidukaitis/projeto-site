@@ -6,7 +6,7 @@
     --cor5: #36384c;
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -61,6 +61,12 @@ header nav span{
     color: var(--cor3);
 }
 
+.degrade{
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(var(--cor2),var(--cor1));
+}
+
 #home{
     height: 300px;
     width: 100%;
@@ -69,7 +75,7 @@ header nav span{
 #sobre-mim{
     width: 80%;
     display: flex;
-    margin: 0 auto;
+    margin: 100px auto;
     align-items: center;
     justify-content: space-around;
 
@@ -99,10 +105,38 @@ header nav span{
     color: var(--cor5);
 }
 
+#atendimento .grupos{
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+
+#atendimento .grupos img{
+    width: 100%;
+    height: 150px;
+}
+
+#atendimento .grupos .grupo{
+    width: 28%;
+    margin: 15px;
+}
+
+#atendimento .grupos h3{
+    margin: 15px;
+}
+
 .whats{
     position: fixed;
     right: 40px;
     bottom: 40px;
+
+}
+
+.whats a img{
+    width: 50px;
+    height: 50px;
 }
 
 #atendimento{
