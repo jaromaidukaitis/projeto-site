@@ -173,3 +173,33 @@ form input {
 	color: var(--cor1);
 	border-radius: 5px;
 }
+
+footer {
+	background-color: var(--cor3);
+	display: flex;
+	justify-content: space-around;
+}
+
+.logoRodape {
+	width: 20%;
+	margin: 3px;
+	padding: 20px;
+}
+
+.nomeCRN {
+	font-weight:bold;
+	text-align: center;
+    padding-top: 5%;
+    font-size: 20px
+}
+
+#sigaMe {
+	padding: 15px;
+	text-align: center;
+	
+}
+
+#icon {
+	width: 50px;
+	display: flex;
+}
