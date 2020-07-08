@@ -180,7 +180,7 @@ footer {
 	justify-content: space-around;
 }
 
-.logoRodape {
+#logoRodape {
 	width: 20%;
 	margin: 3px;
 	padding: 20px;
@@ -189,8 +189,12 @@ footer {
 .nomeCRN {
 	font-weight:bold;
 	text-align: center;
-    padding-top: 5%;
+    padding: 2%;
     font-size: 20px
+}
+
+.redesSociais {
+	text-align: center;
 }
 
 #sigaMe {
@@ -201,5 +205,7 @@ footer {
 
 #icon {
 	width: 50px;
-	display: flex;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	
 }
