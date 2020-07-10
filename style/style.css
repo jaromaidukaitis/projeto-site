@@ -144,6 +144,9 @@ header nav span {
 	width: 70%;
 	padding: 20px;
 	margin: 10px auto;
+	font-family: Nixie One;
+	font-style: normal;
+	font-weight: normal;
 }
 
 form {
@@ -152,7 +155,8 @@ form {
 	border: 1px solid var(--cor3);
 }
 
-form input {
+form input,
+form textarea {
 	width: 70%;
 	margin-top: 20px;
 	height: 40px;
@@ -160,6 +164,19 @@ form input {
 	border-bottom: 2px solid #efe8d8;
 	align-self: center;
 	background-color: #fcf4e3;
+	font-size: 15px;
+	line-height: 18px;
+	padding: 8px;
+}
+
+form input,
+form textarea::placeholder {
+	font-family: Source Sans Pro;
+	font-style: italic;
+}
+
+form textarea {
+	resize: none;
 }
 
 #message {
@@ -172,6 +189,7 @@ form input {
 	align-self: center;
 	color: var(--cor1);
 	border-radius: 5px;
+	margin-bottom: 20px;
 }
 
 footer {
@@ -187,10 +205,10 @@ footer {
 }
 
 .nomeCRN {
-	font-weight:bold;
+	font-weight: bold;
 	text-align: center;
-    padding: 2%;
-    font-size: 20px
+	padding: 2%;
+	font-size: 20px;
 }
 
 .redesSociais {
@@ -200,12 +218,10 @@ footer {
 #sigaMe {
 	padding: 15px;
 	text-align: center;
-	
 }
 
 #icon {
 	width: 50px;
 	margin-right: 10px;
 	margin-bottom: 10px;
-	
 }
