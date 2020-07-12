@@ -14,6 +14,7 @@
 
 body {
 	background-color: var(--cor1);
+	font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -103,6 +104,11 @@ header nav span {
 	color: var(--cor5);
 }
 
+#sobre-mim img {
+	width: 80%;
+	border-radius: 5px;
+}
+
 #atendimento .grupos {
 	width: 90%;
 	display: flex;
@@ -113,7 +119,7 @@ header nav span {
 
 #atendimento .grupos img {
 	width: 100%;
-	height: 150px;
+	border-radius: 8px;
 }
 
 #atendimento .grupos .grupo {
@@ -126,14 +132,15 @@ header nav span {
 }
 
 .whats {
+	text-align: center;
 	position: fixed;
 	right: 40px;
 	bottom: 80px;
 }
 
 .whats a img {
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 }
 
 .whats a{
@@ -213,24 +220,24 @@ footer {
 	justify-content: space-around;
 }
 
-#logoRodape {
+#logo-rodape {
 	width: 20%;
 	margin: 3px;
 	padding: 20px;
 }
 
-.nomeCRN {
+.nome-CRN {
 	font-weight: bold;
 	text-align: center;
 	padding: 2%;
 	font-size: 20px;
 }
 
-.redesSociais {
+.redes-sociais {
 	text-align: center;
 }
 
-#sigaMe {
+#siga-me {
 	padding: 15px;
 	text-align: center;
 }
