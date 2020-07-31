@@ -28,6 +28,19 @@ body {
 	background-color: var(--cor1);
 }
 
+.img-atendimento {
+	object-fit: cover;
+}
+
+.titulo-atendimento {
+	text-align: center;
+}
+
+.texto-atendimento {
+	text-indent: 10%;
+	text-align: justify;
+}
+
 .whats {
 	text-align: center;
 	position: fixed;
