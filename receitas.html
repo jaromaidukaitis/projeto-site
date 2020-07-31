@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/responsive.css" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon_azul.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -12,43 +13,51 @@
 </head>
 
 <body>
-    <header>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-            <img class="navbar-brand" src="vector/Julia-Devens-SVG.svg">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
-              <ul class="navbar-nav d-flex flex-row bd-highlight mb-3 justify-content-end">
-                <li class="nav-item p-1 bd-highlight">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  <header>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">
+            <img class="ml-5 logo" src="vector/Julia-Devens-SVG.svg" alt="Logo Julia Devens">
+        </a>
+        
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item p-1 bd-highlight">
-                  <a class="nav-link" href="#">Sobre Mim</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#sobreMim">Sobre mim</a>
                 </li>
-                <li class="nav-item p-1 bd-highlight">
-                  <a class="nav-link" href="#">Atendimento</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#atendimento">Atendimento</a>
                 </li>
-                <li class="nav-item p-1 bd-highlight">
-                  <a class="nav-link" href="#">Dicas</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./dicas.html">Dicas</a>
                 </li>
-                <li class="nav-item p-1 bd-highlight">
-                  <a class="nav-link" href="#">Receitas</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Artigos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="index.html#">Artigo 1</a>
+                        <a class="dropdown-item" href="index.html#">Artigo 2</a>
+                        <a class="dropdown-item" href="index.html#">Artigo 3</a>
+                    </div>
                 </li>
-                <li class="nav-item p-1 bd-highlight">
-                  <a class="nav-link" href="#">Contato</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contato">Contato</a>
                 </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
+            </ul>
+        </div>
+    </nav>
+  </header>
 
     <main class= "d-flex flex-wrap justify-content-center" class="receitas">
         <div class="card m-4" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
+              <h5 class="card-title">Trufinhas de tâmaras com amendoim</h5>
               <p class="card-text">Descrição da receita</p>
               <a href="#" class="btn btn-primary">Leia mais</a>
             </div>
@@ -56,7 +65,15 @@
           <div class="card m-4" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
+              <h5 class="card-title">Tortinha com massa de grão de bico</h5>
+              <p class="card-text">Descrição da receita</p>
+              <a href="#" class="btn btn-primary">Leia mais</a>
+            </div>
+          </div>
+          <div class="card m-4" style="width: 18rem;">
+            <img src="assets/receita_pesto.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Molho pesto</h5>
               <p class="card-text">Descrição da receita</p>
               <a href="#" class="btn btn-primary">Leia mais</a>
             </div>
@@ -64,7 +81,7 @@
           <div class="card m-4" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
+              <h5 class="card-title">Snack de grão de bico</h5>
               <p class="card-text">Descrição da receita</p>
               <a href="#" class="btn btn-primary">Leia mais</a>
             </div>
@@ -72,7 +89,7 @@
           <div class="card m-4" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
+              <h5 class="card-title">Capuccino caseiro</h5>
               <p class="card-text">Descrição da receita</p>
               <a href="#" class="btn btn-primary">Leia mais</a>
             </div>
@@ -80,7 +97,7 @@
           <div class="card m-4" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
+              <h5 class="card-title">Pão low carb</h5>
               <p class="card-text">Descrição da receita</p>
               <a href="#" class="btn btn-primary">Leia mais</a>
             </div>
