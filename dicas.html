@@ -5,7 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Julia Devens</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="dicas.css" />
+        <link rel="stylesheet" href="style/header.css" />
+        <link rel="stylesheet" href="style/dicas.css" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
         
@@ -16,25 +17,122 @@
 
     </head>
     <body>
-        <div class="container conteudo">
-            <div class="card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/DSC_4669.JPG" class="card-img-top img" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Exceções</h5>
-                        <p class="card-text">“Ah, mas é só hoje!”, quem nunca falou isso? Só porque é almoço de domingo, só porque é aniversário da melhor amiga, festinha do sobrinho, porque está de TPM, churrascão pós praia, o melhor bolo que só tem ali do lado da sua casa….são tantas ocasiões que poderíamos ficar falando o dia todo. Mas vamos ser bem sinceros, isso é a VIDA! Nunca vai existir um “intervalo” nela, os acontecimentos sempre estarão presentes, não existirá momento ideal até porque, imagina uma vida sem essas ocasiões…seria bem chato, não acha?</p>
-                        <a href="#" class="btn btn-primary">Ler mais...</a>
+        
+        
+        <header>
+            <!--NAVBAR-->
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img class="ml-5 logo" src="vector/Julia-Devens-SVG.svg" alt="Logo Julia Devens">
+                </a>
+                
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#sobreMim">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#atendimento">Atendimento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./dicas.html">Dicas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Artigos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="index.html#">Artigo 1</a>
+                                <a class="dropdown-item" href="index.html#">Artigo 2</a>
+                                <a class="dropdown-item" href="index.html#">Artigo 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <h1 class="dicas">Dicas</h1>
+            <div class="container conteudo">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="assets/DSC_4669.JPG" class="card-img-top img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Exceções</h5>
+                            <p class="card-text">“Ah, mas é só hoje!”, quem nunca falou isso? Só porque é almoço de domingo, só porque é aniversário da melhor amiga, festinha do sobrinho, porque está de TPM, churrascão pós praia, o melhor bolo que só tem ali do lado da sua casa….são tantas ocasiões que poderíamos ficar falando o dia todo. Mas vamos ser bem sinceros, isso é a VIDA! Nunca vai existir um “intervalo” nela, os acontecimentos sempre estarão presentes, não existirá momento ideal até porque, imagina uma vida sem essas ocasiões…seria bem chato, não acha?</p>
+                            <a data-toggle="modal" data-target="#myModal-1" class="btn btn-primary">Ler mais...</a>
+                        </div>
                     </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                    <img src="assets/DSC_4672.jpg" class="card-img-top img-2" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">A moda agora é....</h5>
-                        <p class="card-text">“comer de 3 em 3 horas”, “dieta low carb”, “dieta do ovo”, “jejum intermitente”, “não não, é comer só quando tem fome”….complete a frase como quiser, mas saiba de uma coisa: pode ser que amanhã nada disso mais “vale”!</p>
-                        <a href="#" class="btn btn-primary">Ler mais...</a>
+                    <div class="card">
+                        <img src="assets/DSC_4672.jpg" class="card-img-top img-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">A moda agora é....</h5>
+                            <p class="card-text">“comer de 3 em 3 horas”, “dieta low carb”, “dieta do ovo”, “jejum intermitente”, “não não, é comer só quando tem fome”….complete a frase como quiser, mas saiba de uma coisa: pode ser que amanhã nada disso mais “vale”!</p>
+                            <a data-toggle="modal" data-target="#myModal-2" class="btn btn-primary">Ler mais...</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>  
+            
+            <div class="modal" id="myModal-1" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTitle">Exceções</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" id="modalBody">
+                            <p class="mt-2">Então já vamos logo tirando da cabeça aquela ilusão de que esperar aquela data, aquela comemoração, aquele evento passar, para só então começar a ter hábitos mais saudáveis é uma boa ideia!<br>
+                                Essas ocasiões fazem parte da nossa vida, do convívio social e das relações que mantemos com as pessoas ao nosso redor. Mas agora vamos a parte mais complicada: Como administrar as exceções?<br>
+                                Tenha em mente uma coisa: elas vão existir! E este fato não pode ser motivo para que você torne isso a REGRA do jogo. Afinal, o que acontece toda semana não pode ser chamado de exceção, não é mesmo?<br>
+                                “Ah, mas o que eu faço então quando estiver diante dessa situação, nunca mais posso comer o que tiver vontade?”. Você tem duas opções: resistir ou aproveitar. Se decidir que abrirá aquela exceção, APROVEITE, ela não irá te fazer “menos mal” só porque está se sentido culpado por comer, entenda que este é um episódio isolado e que na refeição seguinte tudo voltará a ser como antes. Se decidir resistir, ótimo também, afinal quem dita o ritmo do seu processo, conhece o objetivo e onde quer chegar, é você!<br>
+                                Agora que a mágica acontece, nos detalhes. Não deixe a exceção que abriu para a pizza do happy hour se tornar uma semana de exceções, o chocolate da TPM durar até o mês seguinte, o churrasco do sábado virar um final de semana de “jacadas”…não se perca e se mantenha no jogo.<br>
+                                Tenha em mente que a falha existirá, aquele que não falha também é aquele que nem tentou! Por isso o lema é: Caiu? Levantou. Errou? Tente novamente.<br>
+                                Julia Devens
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="myModal-2" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTitle">A moda agora é....</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" id="modalBody">
+                            <p class="mt-2">Os anos foram se passando e a cada descoberta, cada avanço da ciência, cada reportagem no globo repórter, cada posicionamento de um médico famoso…foi fazendo assuntos relacionados à nutrição virarem MODA! E agora, qual é a MODA?<br>
+                                Você sabe o que significa moda? Na estatística, a moda é aquilo que aparece mais vezes, é o valor/parâmetro mais frequente entre os dados. Agora, isso quer dizer que esse é o valor CERTO? Que é o MELHOR?<br>
+                                Pois é, não ne?! É a mesma coisa para a nutrição, um assunto mais falado, uma dieta ou uma alimentação queridinha pela televisão e pelas blogueiras, não quer dizer que ela é MELHOR dieta, ok? Existe uma infinidade de estratégias nutricionais, jeitos de se alimentar, que funcionarão para o seu corpo, seu estilo de vida e seus objetivos.<br>
+                                Agora sabe uma coisa que nunca vai sair de moda? Cuidar de você!<br>
+                                E certamente isso inclui, cuidar da sua alimentação, buscar ter hábitos saudáveis e uma vida com saúde.<br>
+                                Vamos fazer esse combinado então? Deixe de lado as dietas da moda, deixe de lado essa necessidade de seguir o que dizem as blogueiras ou as informações desconexas da TV, foque em encontrar um equilíbrio, uma alimentação que se encaixe no que você quer e no que você acredita, foque em buscar algo que funcione e te dê resultados….foque em você!<br>
+                                Julia Devens
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>

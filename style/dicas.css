@@ -1,0 +1,32 @@
+main{
+    background-color: var(--cor1);
+    padding-top: 40px;
+}
+
+.dicas{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.card{
+    min-width: 300px;
+}
+
+.container{
+    margin-top: 40px;
+    max-height: 800px;
+}
+
+.img{
+    max-height: 300px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.img-2{
+    max-height: 400px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
