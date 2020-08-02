@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/responsive.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon_azul.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>Receitas - Julia Devens</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Receitas - Julia Devens</title>
+      <link rel="shortcut icon" type="image/x-icon" href="assets/favicon_azul.ico">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <link rel="stylesheet" href="style/header.css" />
+      <link rel="stylesheet" href="style/dicas.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+      
+
+      <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -52,56 +58,261 @@
         </div>
     </nav>
   </header>
-
+<!--Cards Receitas-->
     <main class= "d-flex flex-wrap justify-content-center" class="receitas">
         <div class="card m-4" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Trufinhas de tâmaras com amendoim</h5>
               <p class="card-text">Descrição da receita</p>
-              <a href="#" class="btn btn-primary">Leia mais</a>
+              <a data-toggle="modal" data-target="#myModal-1" class="btn btn-primary">Leia mais</a>
             </div>
-          </div>
-          <div class="card m-4" style="width: 18rem;">
+        </div>
+        <div class="card m-4" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Tortinha com massa de grão de bico</h5>
               <p class="card-text">Descrição da receita</p>
-              <a href="#" class="btn btn-primary">Leia mais</a>
+              <a data-toggle="modal" data-target="#myModal-2" class="btn btn-primary">Leia mais</a>
             </div>
-          </div>
-          <div class="card m-4" style="width: 18rem;">
+        </div>
+        <div class="card m-4" style="width: 18rem;">
             <img src="assets/receita_pesto.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Molho pesto</h5>
               <p class="card-text">Descrição da receita</p>
-              <a href="#" class="btn btn-primary">Leia mais</a>
+              <a data-toggle="modal" data-target="#myModal-3" class="btn btn-primary">Leia mais</a>
             </div>
-          </div>
-          <div class="card m-4" style="width: 18rem;">
+        </div>
+        <div class="card m-4" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Snack de grão de bico</h5>
               <p class="card-text">Descrição da receita</p>
-              <a href="#" class="btn btn-primary">Leia mais</a>
+              <a data-toggle="modal" data-target="#myModal-4" class="btn btn-primary">Leia mais</a>
             </div>
-          </div>
-          <div class="card m-4" style="width: 18rem;">
+        </div>
+        <div class="card m-4" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Capuccino caseiro</h5>
               <p class="card-text">Descrição da receita</p>
-              <a href="#" class="btn btn-primary">Leia mais</a>
+              <a data-toggle="modal" data-target="#myModal-5" class="btn btn-primary">Leia mais</a>
             </div>
-          </div>
-          <div class="card m-4" style="width: 18rem;">
+        </div>
+        <div class="card m-4" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Pão low carb</h5>
               <p class="card-text">Descrição da receita</p>
-              <a href="#" class="btn btn-primary">Leia mais</a>
+              <a data-toggle="modal" data-target="#myModal-6" class="btn btn-primary">Leia mais</a>
             </div>
-          </div>
+        </div>
+    <!--Modal-->
+      <div class="modal" id="myModal-1" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalTitle">Trufinhas de tâmaras com amendoim</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <img src="assets/receita_pesto.jpg" class="img-modal"style="width: 18rem;">
+                    <h5>Ingredientes</h5>
+                    <p class="mt-2">- 250g de tâmaras <br>
+                                    - 100g de amendoim <br>
+                                    - 1 colher de sopa de óleo de coco <br>
+                                    - Cacau em pó para polvilhar
+                    </p>
+                    <h5>Modo de preparo</h5>
+                    <p class="mt-2">- Bater todos os ingredientes no processador <br>
+                                    - Moldar a massa em bolinhas <br>
+                                    - Polvilhar cacau em pó <br><br>
+                                    <em>O rendimento vai depender do tamanho que você prefere o docinho, mas essa receita rendeu em torno de 12 docinhos.</em>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal" id="myModal-2" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalTitle">Tortinha com massa de grão de bico</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                  <img src="assets/receita_pesto.jpg" class="img-modal"style="width: 18rem;">
+                  <h5>Ingredientes massa</h5>
+                  <p class="mt-2">- 1 xícara de grão de bico cozido <br>
+                                  - 1 colheres de sopa de farinha de aveia <br>
+                                  - 1 colher de café de sal
+                  </p>
+                  <h5>Ingredientes recheio</h5>
+                  <p class="mt-2">- 100g de cogumelos shiitake <br>
+                                  - 1/2 cebola <br>
+                                  - 1 colher de sopa de shoyo <br>
+                                  - 1 colher de sopa de creme de ricota <br>
+                                  - Queijo parmesão ralado
+                  </p>
+                  <h5>Modo de preparo</h5>
+                  <p class="mt-2">- Triture o grão de bico no processador <br>
+                                  - Adicione a farinha de aveia e o sal, até obter uma massa homogênea <br>
+                                  - Disponha a sua massa em forminhas  e leve ao forno por 10 min, à 180°C <br>
+                                  - Refogue a cebola, adicione o shiitake e o shoyo <br>
+                                  - Misture os cogumelos com o creme de ricota <br>
+                                  - Disponha o seu recheio na massa pré-assada <br>
+                                  - Coloque um pouco de queijo parmesão por cima para finalizar
+                                  - Leve ao forno por mais 20 min, ou até derreter o queijo <br><br>
+                                  <em>Usamos cogumelos nesse recheio, mas fica super bom com frango desfiado, queijo com espinafre, queijo com tomate, carne. Escolha o seu recheio favorito e aproveite!</em>
+                  </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal" id="myModal-3" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalTitle">Molho pesto</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                  <img src="assets/receita_pesto.jpg" class="img-modal"style="width: 18rem;">
+                  <h5>Ingredientes</h5>
+                  <p class="mt-2">- 50g de manjericão fresco (apenas as folhas) <br>
+                                  - 2 dentes de alho <br>
+                                  - 100ml de azeite de oliva extravirgem <br>
+                                  - 70g de amêndoas <br>
+                                  - 30g de queijo parmesão ralado
+                  </p>
+                  <h5>Modo de preparo</h5>
+                  <p class="mt-2">- Coloque todos os ingredientes num processador <br>
+                                  - Bata até atingir a textura desejada, bem homogênea <br>
+                                  - Coloque em um frasco de vidro e mantenha-o fechado, em geladeira, por até 5 dias
+                  </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal" id="myModal-4" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalTitle">Snack de grão de bico</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                  <img src="assets/receita_pesto.jpg" class="img-modal"style="width: 18rem;">
+                  <h5>Ingredientes</h5>
+                  <p class="mt-2">- 2 xícaras de grão de bico cozido <br>
+                                  - 1 colher de sopa de azeite extravirgem <br>
+                                  - 1/4 da colher de chá de pimenta preta em pó <br>
+                                  - 1/4 da colher de chá de cúrcuma em pó <br>
+                                  - 1/4 da colher de chá de páprica doce <br>
+                                  - 1/4 da colher de chá de tomilho <br>
+                                  - 1/4 da colher de chá de orégano <br>
+                                  - 1/2 colher de chá de sal
+                  </p>
+                  <h5>Modo de preparo</h5>
+                  <p class="mt-2">- Coloque o grão de bico de molho por 12h à 24h <br>
+                                  - Descarte a água do remolho e cozinhe o grão de bico na panela de pressão <br>
+                                  - Em uma assadeira antiaderente, coloque o grão de bico, o azeite e todas as ervas <br>
+                                  - Mexa tudo até que todos os grãos fiquem revestidos pelos temperos
+                                  - Asse no forno pré-aquecido a 220°C por cerca de 30 min, mexendo no meio do tempo para dourar e ficar crocante <br>
+                                  - Deixe esfriar por completo e armazene em um pote bem fechado
+                  </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal" id="myModal-5" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalTitle">Capuccino caseiro</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                  <img src="assets/receita_pesto.jpg" class="img-modal"style="width: 18rem;">
+                  <h5>Ingredientes</h5>
+                  <p class="mt-2">- 1/2 xícara de café pronto, filtrado ou expresso (sem açúcar) <br>
+                                  - 1 colher de sopa cheia de cacau em pó <br>
+                                  - 1 colher de chá de canela em pó <br>
+                                  - 50ml de creme de leite fresco (se preferir, pode ser leite de coco)
+                  </p>
+                  <h5>Modo de preparo</h5>
+                  <p class="mt-2">- Bater tudo no liquidificador até formar uma espuminha gostosa e ficar homogêneo <br>
+                                  - Sirva quente ou gelado, como preferir <br>
+                  </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal" id="myModal-6" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalTitle">Pão low carb</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                  <img src="assets/receita_pesto.jpg" class="img-modal"style="width: 18rem;">
+                  <h5>Ingredientes</h5>
+                  <p class="mt-2">- 1 ovo <br>
+                                  - 1 colher de sopa cheia de azeite <br>
+                                  - 1 colher de sopa de leite de coco ou creme de leite <br>
+                                  - 2 colheres de sopa de farinha de amêndoas <br>
+                                  - 1 pitada de sal
+                                  - 1 colher de chá de fermento
+                  </p>
+                  <h5>Modo de preparo</h5>
+                  <p class="mt-2">- Bata o ovo com o azeite e o leite de coco <br>
+                                  - Em seguida, acrescente os outros ingrediente e continue misturando bem <br>
+                                  - Coloque em um recipiente untado com azeite
+                                  - Finalize com sementes, parmesão ralado, ervas finas ou o que preferir
+                                  - Asse no microondas por 1:30 minuto, ou no forno convencional a 180°C por mais ou menos 15 minutos <br><br>
+                                  <em>Depois de pronto, você pode cortar e fazer torradas, bruschettas ou apenas um sanduíche.</em>
+                  </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+      </div>
     </main>
     
 </div>
