@@ -1,0 +1,32 @@
+.receitas {
+    margin: 10% 0;
+}
+
+.img-receita {
+    object-fit: cover;
+    object-position: 0 40%;
+    width: 318px;
+    height: 218px;
+}
+
+.img-receita-tamara {
+    object-fit: cover;
+    object-position: 0 25%;
+    width: 318px;
+    height: 218px;
+}
+
+.img-receita-pesto {
+    object-fit: cover;
+    object-position: 0 55%;
+    width: 318px;
+    height: 218px;
+}
+
+.img-modal {
+    object-fit: cover;
+    object-position: 0 40%;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+}
