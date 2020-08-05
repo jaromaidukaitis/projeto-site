@@ -23,6 +23,11 @@
     height: 218px;
 }
 
+.btn-receitas {
+    border-color: var(--cor3);
+    color: var(--cor3);
+}
+
 .img-modal {
     object-fit: cover;
     object-position: 0 40%;
