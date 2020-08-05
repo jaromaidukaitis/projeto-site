@@ -42,24 +42,34 @@ body {
 	text-align: justify;
 }
 
-.contact {
+#contact {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.map {
+#map {
+	width: 700px;
+	min-width: 600px;
 	margin: 50px;
+	padding-right: 100px;
+	border-right: 2px solid var(--cor1);
 }
 
-.contact-text {
+#contact-list {
+	width: 700px;
 	margin: 50px;
-	padding: 100px 100px;
-	border-left: 2px solid black;
+	list-style-type: none;
 }
 
-.contact-text p {
+#contact-list li {
 	margin: 30px 0;
+	font-size: 25px;
+}
+
+.contact-icon {
+	width: 25px;
+	height: 25px;
 }
 
 .whats {
@@ -80,13 +90,52 @@ body {
 
 .whats a:hover {
 	text-decoration: underline;
-	color:#613a43;
+	color: #613a43;
 }
 
 .whats .texto-whats {
-	color: #613a43;	;
+	color: #613a43;
 	font-weight: bold;
 	font-size: 18px;
 	font-family: Source Sans Pro;
-	
+}
+
+@media (max-width: 1250px) {
+	#contact {
+		flex-direction: column-reverse;
+	}
+
+	#contact-list {
+		text-align: center;
+		min-width: 80%;
+		border-left: 0;
+		border-bottom: 2px solid var(--cor1);
+	}
+
+	#map {
+		padding: 0;
+		border: 0;
+		margin: 0 auto;
+		width: 80%;
+	}
+}
+
+@media (max-width: 710px) {
+	#contact {
+		flex-direction: column-reverse;
+	}
+
+	#contact-list {
+		text-align: center;
+		min-width: 95%;
+		border-left: 0;
+		border-bottom: 2px solid var(--cor1);
+	}
+
+	#map {
+		width: 95%;
+		padding: 0;
+		border: 0;
+		margin: 0 auto;
+	}
 }
