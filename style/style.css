@@ -21,6 +21,10 @@ body {
 	background-color: var(--cor1);
 }
 
+.texto-julia {
+	text-align: justify;
+}
+
 .card-deck {
 	background-color: var(--cor1);
 }
