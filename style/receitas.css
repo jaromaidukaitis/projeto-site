@@ -1,0 +1,52 @@
+body{
+    background-color: var(--cor1);
+}
+
+.title-receitas{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.img-receita {
+    object-fit: cover;
+    object-position: 0 40%;
+    width: 318px;
+    height: 218px;
+}
+
+.img-receita-tamara {
+    object-fit: cover;
+    object-position: 0 25%;
+    width: 318px;
+    height: 218px;
+}
+
+.img-receita-pesto {
+    object-fit: cover;
+    object-position: 0 55%;
+    width: 318px;
+    height: 218px;
+}
+
+.btn-style{
+    background-color: var(--cor1);
+    border-color: var(--cor1);
+    width: 120px;
+}
+
+.btn-style:hover{
+    background-color: var(--cor2);
+    border-color: var(--cor2);
+}
+
+.img-modal {
+    object-fit: cover;
+    object-position: 0 40%;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+p{
+    text-indent: 20px;
+}
