@@ -1,6 +1,5 @@
 body {
 	background-color: white;
-	font-family: "Montserrat", sans-serif;
 }
 
 .carousel-item {
@@ -16,8 +15,6 @@ body {
 	height: 50%;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	color: black;
-	back
-
 }
 
 .sobreMim {
@@ -155,5 +152,6 @@ body {
 		padding: 0;
 		border: 0;
 		margin: 0 auto;
+		min-width: auto;
 	}
 }

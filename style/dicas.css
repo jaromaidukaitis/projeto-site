@@ -1,6 +1,13 @@
-main{
+body{
     background-color: var(--cor1);
+}
+
+main{
     padding-top: 40px;
+}
+
+p{
+    text-indent: 20px;
 }
 
 .dicas{
@@ -30,3 +37,24 @@ main{
     object-position: 0 0;
 }
 
+.card-img{
+    height: 100%;
+}
+
+.btn-style{
+    background-color: var(--cor1);
+    border-color: var(--cor1);
+    width: 120px;
+}
+
+.btn-style:hover{
+    background-color: var(--cor2);
+    border-color: var(--cor2);
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
