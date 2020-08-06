@@ -109,6 +109,11 @@ body {
 }
 
 @media (max-width: 1250px) {
+
+	.imgPosition {
+		object-position: 0px;
+	}
+
 	#contact {
 		flex-direction: column-reverse;
 	}
@@ -129,6 +134,11 @@ body {
 }
 
 @media (max-width: 710px) {
+
+	.imgPosition {
+		object-position: 0px;
+	}
+
 	#contact {
 		flex-direction: column-reverse;
 	}
