@@ -15,7 +15,7 @@
 
 .navbar {
     background-color: #2f3f58;
-    display: fixed;
+    
 }
 
 .nav-link{
@@ -27,8 +27,27 @@
 .logo {
 	width: 280px;
 	margin-top: 10px;
+	margin-left: 35px;
 }
 
 main{
     margin-top: 95px;
+}
+
+@media (max-width: 710px) {
+
+	.logo {
+		width: 200px;
+		margin-right: 15px;
+		
+	}
+
+	.navbar {
+		width: auto;
+		justify-content: flex-start;
+		
+		
+	}
+
+
 }

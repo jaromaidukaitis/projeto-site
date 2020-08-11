@@ -9,6 +9,7 @@ body {
 .imgPosition {
 	object-fit: cover;
 	object-position: 0px -380px;
+	width: 100%;
 }
 
 .div-background {
@@ -113,7 +114,8 @@ body {
 @media (max-width: 1250px) {
 
 	.imgPosition {
-		object-position: 0px;
+		width: 100%;
+		object-position: 0px -100px;
 	}
 
 	#contact {
@@ -138,7 +140,9 @@ body {
 @media (max-width: 710px) {
 
 	.imgPosition {
-		object-position: 0px;
+		width: auto;
+		object-position: -75px 0px;
+		height: 100%;
 	}
 
 	#contact {
