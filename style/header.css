@@ -14,21 +14,39 @@
 }
 
 .navbar {
-    background-color: #2f3f58;
-    display: fixed;
+	background-color: #2f3f58;
+	justify-content: space-between;
 }
 
-.nav-link{
+.nav-link {
 	text-decoration: none;
-	color:var(--cor1);;
+	color: var(--cor1);
 }
-
 
 .logo {
 	width: 280px;
 	margin-top: 10px;
+	margin-left: 35px;
 }
 
-main{
-    margin-top: 95px;
+main {
+	margin-top: 95px;
+}
+
+@media (max-width: 750px) {
+	.logo {
+		width: 200px;
+		margin-right: 15px;
+	}
+
+	.navbar {
+		width: auto;
+	}
+}
+
+@media (max-width: 350px) {
+	.logo {
+		margin-left: 0 !important;
+		margin-right: 0px;
+	}
 }

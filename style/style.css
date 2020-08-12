@@ -9,11 +9,12 @@ body {
 .imgPosition {
 	object-fit: cover;
 	object-position: 0px -380px;
+	width: 100%;
 }
 
 .div-background {
 	height: 50%;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	color: black;
 }
 
@@ -22,8 +23,7 @@ body {
 	border: none;
 }
 
-
-.main-titulo-att{
+.main-titulo-att {
 	width: -webkit-fill-available;
 }
 
@@ -31,7 +31,7 @@ body {
 	text-align: justify;
 }
 
-.card-deck{
+.card-deck {
 	background-color: var(--cor1);
 }
 
@@ -82,7 +82,8 @@ body {
 	text-align: center;
 	position: fixed;
 	right: 40px;
-	bottom: 80px;
+	bottom: 55px;
+	z-index: 1;
 }
 
 .whats a img {
@@ -107,9 +108,9 @@ body {
 }
 
 @media (max-width: 1250px) {
-
 	.imgPosition {
-		object-position: 0px;
+		width: 100%;
+		object-position: 0px -100px;
 	}
 
 	#contact {
@@ -128,13 +129,15 @@ body {
 		border: 0;
 		margin: 0 auto;
 		width: 80%;
+		margin-bottom: 50px;
 	}
 }
 
-@media (max-width: 710px) {
-
+@media (max-width: 750px) {
 	.imgPosition {
-		object-position: 0px;
+		width: auto;
+		object-position: -75px 0px;
+		height: 100%;
 	}
 
 	#contact {
@@ -143,7 +146,7 @@ body {
 
 	#contact-list {
 		text-align: center;
-		min-width: 95%;
+		width: 95%;
 		border-left: 0;
 		border-bottom: 2px solid var(--cor1);
 	}
@@ -154,6 +157,7 @@ body {
 		border: 0;
 		margin: 0 auto;
 		min-width: auto;
+		margin-bottom: 50px;
 	}
 
 	.text-sb {
@@ -165,14 +169,13 @@ body {
 	}
 }
 
-@media (min-width: 576px) and  (max-width: 991.98px) {
-
-	.att{
+@media (min-width: 576px) and (max-width: 991.98px) {
+	.att {
 		flex-direction: column;
 		align-items: center;
 	}
 	.cards-att {
-	height: fit-content;
+		height: fit-content;
 	}
 
 	.titulo-atendimento {
@@ -189,7 +192,7 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	.img-atendimento{
+	.img-atendimento {
 		max-height: 12rem;
 	}
 }
