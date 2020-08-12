@@ -7,23 +7,20 @@
 }
 
 #footer {
+	position: relative;
 	background-color: #2f3f58;
 	color: var(--cor1);
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	height: 120px;
 	bottom: 0px;
+	z-index: 1030;
 }
 
 .nav-link {
 	text-decoration: none;
 	color: var(--cor1);
-}
-
-.logo-rodape {
-	width: 20%;
-	margin: 3px;
-	padding: 20px;
 }
 
 .nome-CRN {
@@ -47,4 +44,17 @@
 	margin-right: 10px;
 	margin-bottom: 10px;
 	fill: var(--cor1);
+}
+
+@media (max-width: 750px) {
+	#footer {
+		flex-direction: column;
+		height: 300px;
+		align-items: center;
+	}
+
+	#footer .logo {
+		padding: 0px;
+		margin: 20px 0 20px 0 !important;
+	}
 }
