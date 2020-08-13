@@ -39,7 +39,9 @@ p{
 }
 
 .card-img{
-    height: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    object-position: 0 55%;
 }
 
 .btn-style{
