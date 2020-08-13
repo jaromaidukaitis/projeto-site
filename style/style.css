@@ -20,11 +20,7 @@ body {
 
 .sobreMim {
 	width: 65%;
-	border-width: 2px;
-	border-radius: 3px;
-	border-color: var(--cor3);
-	border-style: solid;
-	background-color: var(--cor1);
+	border: none;
 }
 
 .main-titulo-att {
@@ -163,6 +159,14 @@ body {
 		min-width: auto;
 		margin-bottom: 50px;
 	}
+
+	.text-sb {
+		padding:0em!important;
+	}
+	
+	.sobreMim {
+		width: auto;
+	}
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
@@ -177,6 +181,14 @@ body {
 	.titulo-atendimento {
 		font-size: larger;
 	}
+
+	.text-sb{
+		padding:0em!important;
+	}
+
+
+
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
