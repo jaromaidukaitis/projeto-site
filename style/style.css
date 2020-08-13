@@ -117,7 +117,6 @@ body {
 
 	#map {
 		padding: 0;
-		border: 0;
 		margin: 50px auto;
 		width: 80%;
 	}
@@ -151,7 +150,7 @@ body {
 		width: 95%;
 		padding: 0;
 		border: 0;
-		margin: 0 auto;
+		margin: 50 auto;
 		min-width: auto;
 		margin-bottom: 50px;
 	}
