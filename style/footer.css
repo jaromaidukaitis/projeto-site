@@ -4,6 +4,8 @@
 	--cor3: #613a43;
 	--cor4: #849974;
 	--cor5: #36384c;
+	--width-logo-g: 280px;
+	--width-logo-m: 200px;
 }
 
 #footer {
@@ -21,6 +23,10 @@
 .nav-link {
 	text-decoration: none;
 	color: var(--cor1);
+}
+
+.logo-footer {
+	width: var(--width-logo-g);
 }
 
 .nome-CRN {
@@ -53,7 +59,7 @@
 		align-items: center;
 	}
 
-	#footer .logo {
+	#footer .logo-footer {
 		padding: 0px;
 		margin: 20px 0 20px 0 !important;
 	}
