@@ -39,7 +39,7 @@ p{
 }
 
 .card-img{
-    max-height: 220px;
+    max-height: 230px;
     object-fit: cover;
     object-position: 0 55%;
 }
