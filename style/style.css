@@ -62,18 +62,21 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 95px;
 }
 
 #map {
-	width: 600px;
-	margin: 0 50px 50px 50px;
+	width: 45%;
+	margin: 50px auto;
 }
 
 #contact-list {
-	width: 600px;
-	margin: 0 50px 50px 50px;
+	width: 45%;
+	margin: 50px auto;
 	list-style-type: none;
+}
+
+#contact-list-mobile {
+	display: none;
 }
 
 #contact-list li {
@@ -183,9 +186,7 @@ body {
 	#contact-list {
 		text-align: center;
 		width: 95%;
-	}
-
-	
+	}	
 
 	.text-sb {
 		padding:0em!important;
@@ -194,6 +195,37 @@ body {
 	.sobreMim {
 		width: auto;
 	}
+}
+
+@media (max-width: 650px) {
+	#contact-list li {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 460px){
+
+	#contact-list {
+		display: none;
+	}
+	
+	#contact-list-mobile {
+		display: flex;
+		flex-wrap: wrap;
+		list-style-type: none;
+		width: 100%;
+	}
+
+	.contact-icon-mobile {
+		width: 40%;
+		margin: 10px 30%;
+	}
+
+	.contact-icon-li {
+		width: 50%;
+		margin: 10px auto;
+	}
+
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
@@ -212,9 +244,6 @@ body {
 	.text-sb{
 		padding:0em!important;
 	}
-
-
-
 
 }
 

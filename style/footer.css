@@ -43,11 +43,16 @@
 .siga-me {
 	padding-top: 15px;
 	text-align: center;
+	text-indent: 0;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: space-around;
 }
 
 .icon {
 	width: 50px;
-	margin-right: 10px;
 	margin-bottom: 10px;
 	fill: var(--cor1);
 }
