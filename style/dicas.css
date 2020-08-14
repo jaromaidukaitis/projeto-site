@@ -4,6 +4,7 @@ body{
 
 main{
     padding-top: 40px;
+    margin-bottom: 50px;
 }
 
 p{
@@ -23,23 +24,11 @@ p{
 
 .container{
     margin-top: 40px;
-    max-height: 800px;
-}
-
-.img{
-    max-height: 300px;
-    object-fit: cover;
-    object-position: 0 0;
-}
-
-.img-2{
-    max-height: 400px;
-    object-fit: cover;
-    object-position: 0 0;
 }
 
 .card-img{
-    max-height: 230px;
+    height: 100%;
+    max-height: 280px;
     object-fit: cover;
     object-position: 0 55%;
 }
@@ -48,6 +37,8 @@ p{
     background-color: var(--cor1);
     border-color: var(--cor1);
     width: 120px;
+    margin-right: 20px;
+    margin-left: auto;
 }
 
 .btn-style:hover{
@@ -60,4 +51,33 @@ p{
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+}
+
+.modal-header{
+    background-color: var(--header);
+}
+
+.modal-body{
+    background-color: var(--cor1);
+}
+
+.modal-footer{
+    background-color: var(--header);
+}
+
+.modal-title{
+    font-size: 30px;
+    color: var(--cor1);
+}
+
+@media (max-width: 990px){
+    .img-horizontal{
+        object-position: -100px 0;
+    }
+}
+
+@media (max-width: 768px){
+    .img-horizontal{
+        object-position: 0 0;
+    }
 }

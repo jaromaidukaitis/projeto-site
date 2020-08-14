@@ -18,9 +18,15 @@ body {
 	color: black;
 }
 
+.ancora{
+	height: 1px;
+	width: 100%;
+}
+
 .sobreMim {
 	width: 65%;
 	border: none;
+	margin-top: 95px;
 }
 
 .main-titulo-att {
@@ -29,6 +35,10 @@ body {
 
 .texto-julia {
 	text-align: justify;
+}
+
+.atendimento{
+	margin-top: 95px;
 }
 
 .card-deck {
@@ -48,20 +58,21 @@ body {
 	text-align: justify;
 }
 
-#contact {
+.contato {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-top: 95px;
 }
 
 #map {
 	width: 600px;
-	margin: 50px;
+	margin: 0 50px 50px 50px;
 }
 
 #contact-list {
 	width: 600px;
-	margin: 50px;
+	margin: 0 50px 50px 50px;
 	list-style-type: none;
 }
 
@@ -91,6 +102,13 @@ body {
 .whats a img {
 	width: 60px;
 	height: 60px;
+	transition: 1s;
+}
+
+.whats a img:hover{
+	width: 80px;
+	height: 80px;
+	transform: rotate(15deg);
 }
 
 .whats a {
@@ -102,11 +120,15 @@ body {
 	color: #613a43;
 }
 
-.whats .texto-whats {
-	color: #613a43;
-	font-weight: bold;
-	font-size: 18px;
-	font-family: Source Sans Pro;
+.whats-texto{
+	display: none;
+	text-align: center;
+	position: fixed;
+	right: 35px;
+	bottom: 40px;
+	z-index: 1;
+	font-size: 10px;
+	transition: 1s;
 }
 
 @media (max-width: 1250px) {
@@ -128,7 +150,7 @@ body {
 		height: auto;
 	}
 
-	#contact {
+	.contato {
 		flex-direction: column-reverse;
 	}
 
@@ -150,12 +172,11 @@ body {
 		width: 95%;
 		padding: 0;
 		border: 0;
-		margin: 50 auto;
+		margin: 50px auto 50px;
 		min-width: auto;
-		margin-bottom: 50px;
 	}
 
-	#contact {
+	.contato {
 		flex-direction: column-reverse;
 	}
 

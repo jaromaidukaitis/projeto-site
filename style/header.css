@@ -16,7 +16,7 @@
 }
 
 .navbar {
-	background-color: #2f3f58;
+	background-color: var(--header);
 	justify-content: space-between;
 }
 
