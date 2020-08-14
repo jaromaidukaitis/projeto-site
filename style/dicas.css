@@ -70,6 +70,11 @@ p{
     color: var(--cor1);
 }
 
+.btn-x {
+    color: var(--cor1);
+    font-size: 45px;
+}
+
 @media (max-width: 990px){
     .img-horizontal{
         object-position: -100px 0;

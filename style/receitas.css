@@ -44,13 +44,16 @@ body{
     background-color: var(--cor1);
     border-color: var(--cor1);
     width: 120px;
-    margin-right: 20px;
-    margin-left: auto;
 }
 
 .btn-style:hover{
     background-color: var(--cor2);
     border-color: var(--cor2);
+}
+
+.btn-x {
+    color: var(--cor1);
+    font-size: 45px;
 }
 
 .img-ingredientes{
