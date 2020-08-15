@@ -38,7 +38,12 @@ body {
 }
 
 .atendimento{
-	margin-top: 95px;
+	margin: 95px auto 0px;
+	padding: 3rem 3rem;
+}
+
+.card{
+	min-width: 300px;
 }
 
 .card-deck {
@@ -62,17 +67,19 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-top: 95px;
 }
 
 #map {
 	width: 45%;
-	margin: 50px auto;
+	margin: 0px auto 50px;
 }
 
 #contact-list {
 	width: 45%;
-	margin: 50px auto;
+	margin: 0px auto 50px;
 	list-style-type: none;
+	text-align: center;
 }
 
 #contact-list-mobile {
@@ -135,6 +142,10 @@ body {
 }
 
 @media (max-width: 1250px) {
+	.atendimento{
+		padding: 3rem 2.5rem;
+	}
+
 	.imgPosition {
 		width: 100%;
 		object-position: 0px -100px;
@@ -165,6 +176,10 @@ body {
 }
 
 @media (max-width: 750px) {
+	.atendimento{
+		padding: 3rem 2rem;
+	}
+
 	.imgPosition {
 		width: auto;
 		object-position: -75px 0px;
@@ -198,12 +213,19 @@ body {
 }
 
 @media (max-width: 650px) {
+	.atendimento{
+		padding: 3rem 1rem;
+	}
+
 	#contact-list li {
 		font-size: 20px;
 	}
 }
 
 @media (max-width: 460px){
+	.atendimento{
+		padding: 3rem 0.5rem;
+	}
 
 	#contact-list {
 		display: none;

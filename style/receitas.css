@@ -56,21 +56,11 @@ body{
     font-size: 45px;
 }
 
-.img-ingredientes{
-    display: flex;
-}
-
-.ingredientes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .img-modal {
     text-align: center;
     object-fit: cover;
     object-position: 0 40%;
-    width: 50%;
+    width: 100%;
     height: 250px;
     margin: 15px 15px 20px 5px;
 }
