@@ -29,6 +29,10 @@ body {
 	margin-top: 95px;
 }
 
+.text-sb {
+	font-size: 20px;
+}
+
 .main-titulo-att {
 	width: -webkit-fill-available;
 	margin-left: 15px;
