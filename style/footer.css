@@ -32,8 +32,13 @@
 .nome-CRN {
 	font-weight: bold;
 	text-align: center;
-	padding: 2%;
+	padding: 0 2%;
 	font-size: 20px;
+}
+
+.CRN {
+	text-indent: 0;
+	text-align: center;
 }
 
 .redes-sociais {

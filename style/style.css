@@ -31,6 +31,8 @@ body {
 
 .main-titulo-att {
 	width: -webkit-fill-available;
+	margin-left: 15px;
+    padding-bottom: 15px;
 }
 
 .texto-julia {
