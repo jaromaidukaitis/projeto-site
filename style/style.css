@@ -29,8 +29,17 @@ body {
 	margin-top: 95px;
 }
 
+.tt-julia{
+	text-align: end;
+}
+
+.img-sb {
+	margin-top: 100px;
+}
+
 .text-sb {
 	font-size: 20px;
+	margin-right: 2rem;
 }
 
 .main-titulo-att {
@@ -42,7 +51,6 @@ body {
 .texto-julia {
 	text-align: justify;
 }
-
 .atendimento{
 	margin: 95px auto 0px;
 	padding: 3rem 3rem;
@@ -178,6 +186,18 @@ body {
 		text-align: center;
 		min-width: 80%;
 		border-left: 0;
+	}
+
+	.sobreMim {
+		display: contents;
+	}
+
+	.img-sb {
+		padding: 20px;
+	}
+
+	.tt-julia {
+		text-align: center;
 	}
 }
 
