@@ -246,6 +246,12 @@ body {
 	#contact-list li {
 		font-size: 20px;
 	}
+
+	.imgPosition {
+		width: 100%;
+		object-position: 0px;
+		height: 100%;
+	}
 }
 
 @media (max-width: 460px){
@@ -274,6 +280,11 @@ body {
 		margin: 10px auto;
 	}
 
+	.imgPosition {
+		width: 100%;
+		object-position: 0px;
+		height: 100%;
+	}
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
@@ -293,10 +304,18 @@ body {
 		padding:0em!important;
 	}
 
+	.imgPosition {
+		width: 100%;
+		object-position: 0px;
+		height: 100%;
+	}
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	.img-atendimento {
 		max-height: 12rem;
 	}
+
+
 }

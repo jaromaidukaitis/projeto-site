@@ -46,8 +46,9 @@ main {
 	}
 }
 
-@media (max-width: 350px) {
+@media (max-width: 480px) {
 	.logo {
+		width: var(--width-logo-m);
 		margin-left: 0 !important;
 		margin-right: 0px;
 	}
