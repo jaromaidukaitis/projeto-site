@@ -14,11 +14,11 @@ body {
 
 .div-background {
 	height: 50%;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	color: black;
 }
 
-.ancora{
+.ancora {
 	height: 1px;
 	width: 100%;
 }
@@ -29,7 +29,7 @@ body {
 	margin-top: 95px;
 }
 
-.tt-julia{
+.tt-julia {
 	text-align: center;
 }
 
@@ -47,18 +47,18 @@ body {
 .main-titulo-att {
 	width: -webkit-fill-available;
 	margin-left: 15px;
-    padding-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 .texto-julia {
 	text-align: justify;
 }
-.atendimento{
+.atendimento {
 	margin: 95px auto 0px;
 	padding: 3rem 3rem;
 }
 
-.card{
+.card {
 	min-width: 300px;
 }
 
@@ -83,17 +83,17 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 95px;
+	margin: 95px 0;
 }
 
 #map {
 	width: 45%;
-	margin: 0px auto 50px;
+	margin: 45px auto 50px;
 }
 
 #contact-list {
 	width: 45%;
-	margin: 0px auto 50px;
+	margin: 45px auto 50px;
 	list-style-type: none;
 	text-align: center;
 }
@@ -114,7 +114,7 @@ body {
 
 #bar {
 	border-right: 2px solid var(--cor1);
-	height: 350px;
+	height: 500px;
 }
 
 .whats {
@@ -131,7 +131,7 @@ body {
 	transition: 1s;
 }
 
-.whats a img:hover{
+.whats a img:hover {
 	width: 80px;
 	height: 80px;
 	transform: rotate(15deg);
@@ -146,7 +146,7 @@ body {
 	color: #613a43;
 }
 
-.whats-texto{
+.whats-texto {
 	display: none;
 	text-align: center;
 	position: fixed;
@@ -158,7 +158,7 @@ body {
 }
 
 @media (max-width: 1250px) {
-	.atendimento{
+	.atendimento {
 		padding: 3rem 2.5rem;
 	}
 
@@ -192,11 +192,10 @@ body {
 		min-width: 80%;
 		border-left: 0;
 	}
-
 }
 
 @media (max-width: 750px) {
-	.atendimento{
+	.atendimento {
 		padding: 3rem 2rem;
 	}
 
@@ -219,19 +218,19 @@ body {
 	#contact-list {
 		text-align: center;
 		width: 95%;
-	}	
+	}
 
 	.text-sb {
-		padding:0em!important;
+		padding: 0em !important;
 	}
-	
+
 	.sobreMim {
 		width: auto;
 	}
 }
 
 @media (max-width: 650px) {
-	.atendimento{
+	.atendimento {
 		padding: 3rem 1rem;
 	}
 
@@ -245,15 +244,15 @@ body {
 	}
 }
 
-@media (max-width: 460px){
-	.atendimento{
+@media (max-width: 460px) {
+	.atendimento {
 		padding: 3rem 0.5rem;
 	}
 
 	#contact-list {
 		display: none;
 	}
-	
+
 	#contact-list-mobile {
 		display: flex;
 		flex-wrap: wrap;
@@ -270,7 +269,6 @@ body {
 		width: 50%;
 		margin: 10px auto;
 	}
-
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
@@ -283,8 +281,8 @@ body {
 		font-size: larger;
 	}
 
-	.text-sb{
-		padding:0em!important;
+	.text-sb {
+		padding: 0em !important;
 	}
 }
 
@@ -292,6 +290,4 @@ body {
 	.img-atendimento {
 		max-height: 12rem;
 	}
-
-
 }
