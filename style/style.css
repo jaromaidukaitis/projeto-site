@@ -239,7 +239,7 @@ body {
 	}
 
 	.imgPosition {
-		object-position: 0 -9rem;
+		object-position: 60% 50%;
 		height: 100%;
 	}
 }
