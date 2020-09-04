@@ -3,12 +3,12 @@ body {
 }
 
 .carousel-item {
-	height: 400px;
+	height: 600px;
 }
 
 .imgPosition {
 	object-fit: cover;
-	object-position: 0px -380px;
+	object-position: 0 -9rem;
 	width: 100%;
 }
 
@@ -24,17 +24,19 @@ body {
 }
 
 .sobreMim {
-	width: 65%;
+	width: 90%;
 	border: none;
 	margin-top: 95px;
 }
 
 .tt-julia{
-	text-align: end;
+	text-align: center;
 }
 
 .img-sb {
 	margin-top: 100px;
+	height: 70%;
+	object-fit: cover;
 }
 
 .text-sb {
@@ -160,9 +162,12 @@ body {
 		padding: 3rem 2.5rem;
 	}
 
+	.carousel-item {
+		height: 400px;
+	}
+
 	.imgPosition {
-		width: 100%;
-		object-position: 0px -100px;
+		object-position: 0 -9rem;
 	}
 
 	#map {
@@ -188,17 +193,6 @@ body {
 		border-left: 0;
 	}
 
-	.sobreMim {
-		display: contents;
-	}
-
-	.img-sb {
-		padding: 20px;
-	}
-
-	.tt-julia {
-		text-align: center;
-	}
 }
 
 @media (max-width: 750px) {
@@ -207,9 +201,7 @@ body {
 	}
 
 	.imgPosition {
-		width: auto;
-		object-position: -75px 0px;
-		height: 100%;
+		object-position: 0 -9rem;
 	}
 
 	#map {
@@ -248,8 +240,7 @@ body {
 	}
 
 	.imgPosition {
-		width: 100%;
-		object-position: 0px;
+		object-position: 0 -9rem;
 		height: 100%;
 	}
 }
@@ -280,20 +271,12 @@ body {
 		margin: 10px auto;
 	}
 
-	.imgPosition {
-		width: 100%;
-		object-position: 0px;
-		height: 100%;
-	}
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
 	.att {
 		flex-direction: column;
 		align-items: center;
-	}
-	.cards-att {
-		height: fit-content;
 	}
 
 	.titulo-atendimento {
@@ -303,13 +286,6 @@ body {
 	.text-sb{
 		padding:0em!important;
 	}
-
-	.imgPosition {
-		width: 100%;
-		object-position: 0px;
-		height: 100%;
-	}
-
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {

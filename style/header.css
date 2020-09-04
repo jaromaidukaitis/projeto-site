@@ -37,7 +37,7 @@ main {
 
 @media (max-width: 750px) {
 	.logo {
-		width: var(--width-logo-m);
+		width: var(--width-logo-g);
 		margin-right: 15px;
 	}
 
@@ -51,5 +51,9 @@ main {
 		width: var(--width-logo-m);
 		margin-left: 0 !important;
 		margin-right: 0px;
+	}
+
+	main{
+		margin-top: 78px;
 	}
 }
