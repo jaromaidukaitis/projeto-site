@@ -26,21 +26,22 @@ body {
 .sobreMim {
 	width: 90%;
 	border: none;
+	margin: auto;
 	margin-top: 95px;
 }
 
 .tt-julia {
+	font-size: 4vw;
 	text-align: center;
 }
 
 .img-sb {
 	margin-top: 100px;
-	height: 70%;
-	object-fit: cover;
+	width: 90%;
 }
 
 .text-sb {
-	font-size: 20px;
+	font-size: 1.75vw;
 	margin-right: 2rem;
 }
 
@@ -221,7 +222,12 @@ body {
 	}
 
 	.text-sb {
+		font-size: 20px;
 		padding: 0em !important;
+	}
+
+	.tt-julia {
+		font-size: 33px;
 	}
 
 	.sobreMim {
@@ -268,6 +274,10 @@ body {
 	.contact-icon-li {
 		width: 50%;
 		margin: 10px auto;
+	}
+
+	#whats {
+		display: none;
 	}
 }
 
